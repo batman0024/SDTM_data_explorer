@@ -1,0 +1,107 @@
+# -----------------------------
+# PYTHON CACHE / BUILD FILES
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# C extensions
+*.so
+
+# -----------------------------
+# TESTING / COVERAGE
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# -----------------------------
+# JUPYTER NOTEBOOK
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# TOOLS & ENV CONFIG
+# -----------------------------
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.*
+*.env
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+pyrightconfig.json
+
+# -----------------------------
+# LOGS / DATABASES
+# -----------------------------
+*.log
+*.sqlite3
+*.db
+
+# -----------------------------
+# IDE / EDITOR SETTINGS
+# -----------------------------
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# OS FILES
+# -----------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -----------------------------
+# OTHER
+# -----------------------------
+*.tmp
+*.bak
