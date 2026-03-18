@@ -1,0 +1,20 @@
+{
+  "populations": {
+    "SAFETY": {
+      "flag": "SAFFL",
+      "description": "Received \u22651 dose",
+      "logic": {
+        "type": "exposure_based",
+        "criteria": "has_any_exposure"
+      }
+    },
+    "ITT": {
+      "flag": "ITTFL",
+      "description": "All randomized",
+      "logic": {
+        "type": "randomization_based",
+        "criteria": "is_randomized"
+      }
+    }
+  }
+}
